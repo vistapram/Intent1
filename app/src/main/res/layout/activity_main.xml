@@ -11,10 +11,21 @@
     tools:context="id.sch.smktelkom_mlg.learn.intent1.MainActivity"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:inputType="textPersonName"
+        android:hint="Nama"
+        android:ems="10"
+        android:id="@+id/editTextNama" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:hint="Umur"
+        android:ems="10"
+        android:id="@+id/editTextUmur" />
 
     <Button
         android:text="Hitung"
